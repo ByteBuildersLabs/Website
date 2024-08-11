@@ -135,10 +135,6 @@ button {
   text-shadow:0 0 15px var(--yellow);
 }
 
-.yellow-border {
-  animation: inneraura 3s infinite;
-}
-
 .gray {
   color: var(--light-gray);
   transition: all 0.25s;

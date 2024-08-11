@@ -1,4 +1,5 @@
 import MintBeast from '../../components/MintBeast/index';
+import NftHall from '../../components/NftHall';
 import Footer from '../../components/Footer';
 import './main.css';
 
@@ -9,6 +10,7 @@ function NftRoom() {
         <span>Byte Builders Labs</span>
         <h2>Mint your own <span className='d-block'>Byte Beast</span></h2>
       </div>
+      <NftHall />
       <MintBeast />
       <Footer />
     </div>
