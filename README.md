@@ -1,50 +1,38 @@
-# React + TypeScript + Vite
+# ⚡️ ByteBeast Official Website
+- https://github.com/ByteBuildersLabs/ByteBeasts
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔮 Table of contents
+1. [What is this](#-what-is-this)
+2. [Features](#%EF%B8%8F-features)
+3. [How to install](#%EF%B8%8F-how-to-install)
+4. [Improvements Ideas](#-improvements-ideas)
+5. [Screenshots](#%EF%B8%8F-screenshots)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🪙 What is this
+- This is the ByteBeasts Website
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### ⚡️ Features
+- Test the game and show very clear the roadmap and where we are
+- Roadmap and Team
+- NFTs: ByteBeasts wallet, ByteBeasts viewer, ByteBeasts Collections, send ByteBeasts, ByteBeasts Wallets viewer (Contracts are in progress [Here](https://github.com/ByteBuildersLabs/Contracts))
 
-- Configure the top-level `parserOptions` property like this:
+### ⚙️ How to install
+- Clone this repo: `git clone https://github.com/ByteBuildersLabs/website`
+- Go to `my-app` and `npm install`
+- Run `npm run start`
+- Open `http://localhost:3000/`
+- You can deploy this project using vercel
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 🔮 Improvements Ideas
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### 🐝 Tech debt
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### ⚡️ Screenshots
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<img width="603" alt="Captura de pantalla 2024-08-05 a la(s) 6 18 42 p  m" src="https://github.com/user-attachments/assets/5014a542-f1ae-48ee-a358-95e5e0aa1e32">
+
+<img width="603" alt="Captura de pantalla 2024-08-05 a la(s) 6 18 47 p  m" src="https://github.com/user-attachments/assets/475897cc-8268-4762-b3cd-e76ef7b2b430">
+
+<img width="603" alt="Captura de pantalla 2024-08-05 a la(s) 6 18 52 p  m" src="https://github.com/user-attachments/assets/98c80d9c-f3cf-407a-8d22-b5c2383bda94">
