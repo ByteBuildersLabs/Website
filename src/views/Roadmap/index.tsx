@@ -1,4 +1,3 @@
-import React from 'react';
 import RoadmapStep from '../../components/RoadmapStep';
 import RoadmapMonth from '../../components/RoadmapMonth';
 import RoadmapTeam from '../../components/RoadmapTeam';

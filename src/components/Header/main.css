@@ -34,6 +34,18 @@
   color: #e4a101;
 }
 
+@media (max-width: 380px) {
+  .navbar .logo h2 {
+    font-size: 14px;
+  }
+  .navbar .logo h2 span {
+    font-size: 14px;
+  }
+  
+}
+
+
+
 .navbar-nav li a {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   color: #fff;
@@ -67,9 +79,6 @@
   justify-content: space-center;
   font-size: 14px;
   border: 2px solid var(--yellow);
-}
-
-.connect-btn:hover {
   background-color: var(--yellow);
 }
 

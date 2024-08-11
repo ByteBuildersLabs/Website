@@ -27,7 +27,7 @@ body {
   width: 100%;
   max-width: 425px;
   margin: auto;
-  padding: 70px 15px 20px;
+  padding: 90px 15px 20px;
 }
 
 p {
@@ -260,6 +260,10 @@ button {
   height: 200px;
   border-radius: 25px;
   object-fit: cover;
+}
+
+.section-tab-pet {
+  border-radius: 50%;
 }
 
 .product-tag {
