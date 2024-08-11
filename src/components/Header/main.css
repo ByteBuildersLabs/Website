@@ -1,0 +1,93 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  padding: 15px 15px 0;
+  background-color: #000;
+  border-bottom: 2px solid #000;
+}
+
+.navbar .container {
+  max-width: 425px;
+}
+
+.navbar .logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border: 2px solid #e4a101;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.navbar .logo h2 {
+  font-family: "Marcellus SC", serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+.navbar .logo h2 span {
+  font-size: 20px;
+  color: #e4a101;
+}
+
+.navbar-nav li a {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  color: #fff;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 18px 5%;
+  text-align: left;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-item img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.connect-btn {
+  border-radius: 8px;
+  font-family: "Marcellus SC", serif;
+  padding: 5px 10px;
+  color: var(--white);
+  transition: all 0.25s;
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-center;
+  font-size: 14px;
+  border: 2px solid var(--yellow);
+}
+
+.connect-btn:hover {
+  background-color: var(--yellow);
+}
+
+.connect-btn img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.navbar-toggler img {
+  margin-top: -20px;
+  transition: all 300ms linear;
+}
+
+.navbar-toggler.collapsed img {
+  transform: rotate(70deg);
+}
+
+/* Bootstrap Overrides */
+.navbar-toggler:focus {
+  box-shadow: unset;
+}

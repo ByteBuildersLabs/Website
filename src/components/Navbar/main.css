@@ -1,0 +1,49 @@
+.navbar-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #000;
+  border-radius: 3px;
+  margin: auto;
+  display: flex;
+}
+
+.navbar-bottom .container {
+  max-width: 425px;
+}
+
+.navbar-bottom a {
+  font-family: "Marcellus SC", serif;
+  color: var(--light-gray);
+  font-size: 12px;
+  margin: 0 auto;
+  transition: all 0.5s;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar-bottom a:active,
+.navbar-bottom a:focus,
+.navbar-bottom a:hover {
+  color: var(--white);
+}
+
+.navbar-bottom img {
+  object-fit: cover;
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin: 0 auto 5px;
+  border-radius: 50%;
+  transition: all 0.25s;
+}
+
+.navbar-bottom img:active,
+.navbar-bottom img:focus,
+.navbar-bottom img:hover {
+  color: var(--white);
+  border: 2px solid #731627;
+}
+
+

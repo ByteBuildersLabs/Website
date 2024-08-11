@@ -1,42 +1,301 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --main-bg-color: #000;
+  --yellow: #731627;
+  --white: #fff;
+  --light-green: #000;
+  --light-gray: #90949c;
+  --black: #000;
+  --black-bold: #000;
+  --warning: #ed6444;
+}
+
+* {
+  transition: all 0.25s;
+}
+
+body {
+  color: var(--white);
+  background-color: #000;
+  padding-bottom: 100px;
+  background-size: cover;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#content {
+  width: 100%;
+  max-width: 425px;
+  margin: auto;
+  padding: 70px 15px 20px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+span {
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  margin: 0;
+  padding: 20px 15px;
+  text-align: left;
+  color: var(--white);
+  border: 0;
+  border-bottom: 3px solid var(--yellow);
+  background-color: var(--light-green);
+}
+
+input::placeholder {
+  color: var(--white);
+}
+
+button {
+  font-weight: 500;
+  border: 0;
+  background-color: var(--main-bg-color);
+}
+
+.flip-pic {
+  transform: scaleX(-1);
+}
+
+.alert-text {
+  display: block;
   text-align: center;
+  font-size: 14px;
+  color: var(--warning);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-button {
+  font-family: "Marcellus SC", serif;
+  width: 100%;
+  display: block;
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--white);
+  border-radius: 3px;
+  border: 0;
+  background-color: var(--light-green);
+  border-bottom: 3px solid #e4a101;
+  cursor: pointer;
+  transition: all 0.25s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.main-button:disabled {
+  color: var(--light-gray);
+  border: 3px solid var(--light-green);
+  background-color: var(--main-bg-color);
 }
 
-.card {
-  padding: 2em;
+.secondary-button {
+  width: 98%;
+  display: block;
+  height: 50px;
+  padding: 12px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--light-green);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.25s;
 }
 
-.read-the-docs {
-  color: #888;
+.secondary-button:disabled {
+  color: var(--light-gray);
+  border: 3px solid var(--light-green);
+  background-color: var(--main-bg-color);
+}
+
+.secondary-button:hover {
+  color: var(--white);
+  animation: only-aura 4s ease 0s infinite normal none;
+}
+
+.yellow {
+  font-family: "Marcellus SC", serif;
+  color: var(--yellow);
+  transition: all 0.25s;
+}
+
+.yellow:hover {
+  color: var(--yellow);
+  text-shadow:0 0 15px var(--yellow);
+}
+
+.yellow-border {
+  animation: inneraura 3s infinite;
+}
+
+.gray {
+  color: var(--light-gray);
+  transition: all 0.25s;
+}
+
+.gray:hover {
+  color: var(--light-gray);
+  text-shadow:0 0 20px var(--light-gray);
+}
+
+#__react-alert__ div div div {
+  color: var(--white) !important;
+  background-color: var(--main-bg-color) !important;
+  border-radius: 3px !important;
+  font-family: 'Poppins', sans-serif !important;
+  text-transform: initial !important;
+  font-weight: bold !important;
+  border: 3px solid #e4a101 !important;
+}
+
+#__react-alert__ div div div svg {
+  stroke: var(--yellow) !important;
+}
+
+#__react-alert__ div div div svg:hover {
+  stroke: var(--light-gray) !important;
+}
+
+/* Section tabs */
+
+.section-title {
+  font-family: "Marcellus SC", serif;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 0;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+
+.section-title h2 span {
+  font-size: 36px;
+  color: #e4a101;
+}
+
+.section-title > span {
+  display: block;
+  font-family: 'Poppins', sans-serif !important;
+  line-height: 1;
+  font-size: 10px;
+  font-weight: 700;
+  color: #c8c8c8;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.title-style-two {
+  padding-bottom: 35px;
+  position: relative;
+  margin: 30px auto 10px;
+}
+
+.title-style-two::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url('./assets/img/images/title_bar.png');
+  width: 270px;
+  height: 13px;
+  background-repeat: no-repeat;
+}
+
+.title-style-two.text-center::before {
+  right: 0;
+  margin: 0 auto;
+}
+
+.section-tab {
+  margin: 0;
+  padding: 0px 20px;
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+.section-tab .title {
+  font-family: "Marcellus SC", serif;
+  font-weight: 800;
+  font-size: 18px;
+  margin: 0;
+  padding-right: 5px;
+}
+
+.section-tab .title span {
+  font-size: 18px;
+  color: #e4a101;
+}
+
+.section-tab .subtitle {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: var(--light-gray);
+}
+
+.new {
+  border-radius: 25px;
+  border: 3px solid #e4a101;
+  margin-bottom: 40px;
+  transition: all 0.25s;
+  color: var(--main-bg-color);
+  background-color: var(--main-bg-color);
+}
+
+.new img {
+  width: 100%;
+  height: 200px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.product-tag {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  padding: 0 20px;
+  color: #e4a101;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 24px;
+}
+
+.product-tag ::before {
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transform: skewX(-10deg);
+  z-index: -1;
+  right: 0;
+  margin: 0 auto;
+  background: transparent;
+  border-bottom: 2px solid #e4a101;
+  transition: all 0.3s ease-out 0s;
+}
+
+@keyframes inneraura {
+  0% { box-shadow: 0px 4px 5.58px 0.42px rgb(0 0 0 / 13%), inset 0px 1px 10px 0px rgb(228 161 1 / 17%); }
+  50% { box-shadow: 0px 4px 5.58px 0.42px rgb(0 0 0 / 13%), inset 0px 1px 16px 0px rgb(228 161 1 / 17%); }
+  100% { box-shadow: 0px 4px 5.58px 0.42px rgb(0 0 0 / 13%), inset 0px 1px 10px 0px rgb(228 161 1 / 17%); }
 }

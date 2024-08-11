@@ -1,4 +1,5 @@
 import { useState } from "react";
+import starknet from '../../assets/img/stark.png';
 import { connect, disconnect } from "starknetkit";
 
 interface IWalletConnection {
@@ -49,19 +50,18 @@ export default function WalletConnector() {
     <>
       {walletConnection?.address ? (
         <button
-          className="btn btn-outline-primary f-bold"
-          style={{ fontSize: "small", whiteSpace: "nowrap" }}
+          className="connect-btn"
           onClick={handleDisconnect}
         >
           Disconnect ...{walletConnection.address.slice(-6)}
         </button>
       ) : (
         <button
-          className="btn btn-outline-primary f-bold"
-          style={{ fontSize: "small", whiteSpace: "nowrap" }}
+          className="connect-btn"
           onClick={handleConnect}
         >
-          Connect Wallet
+          Connect
+          <img src={starknet} alt="starknet" />
         </button>
       )}
     </>

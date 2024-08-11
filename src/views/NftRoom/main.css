@@ -1,0 +1,89 @@
+.nft-room {
+  height: 100%;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.collection-title {
+  font-family: "Marcellus SC", serif;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--yellow);
+  padding: 0 0 10px;
+}
+
+.collection-description {
+  font-size: 14px !important;
+  color: #fff !important;
+  padding: 0 8px;
+  margin-bottom: 28px;
+}
+
+.nft-hall .yellow {
+  color: var(--light-gray);
+  margin: 0;
+}
+
+.nft-hall .yellow:hover {
+  color: var(--yellow);
+  border-radius: 50%;
+  text-shadow: 0 0 0 var(--yellow);
+}
+
+.collection {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+.nft-card {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.nft-card img {
+  width: 85%;
+  object-fit: cover;
+  margin: 0 auto 6px;
+  animation: only-aura 10s ease 0s infinite normal none;
+}
+
+.nft-card p {
+  font-family: "Marcellus SC", serif;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 10px;
+}
+
+@keyframes aura {
+  0%,
+  50%,
+  100% {
+    transform: translate(0, -2px);
+    filter: drop-shadow(0 0 2px var(--yellow));
+  }
+  25%,
+  75% {
+    transform: translate(0, 2px);
+    filter: drop-shadow(0 0 8px var(--yellow));
+  }
+}
+
+@keyframes only-aura {
+  0%,
+  50%,
+  100% {
+    filter: drop-shadow(0 0 0px var(--yellow));
+  }
+  25%,
+  75% {
+    filter: drop-shadow(0 0 7px var(--yellow));
+  }
+}
+
+.nft-owner.section-tab,
+.nft-collection.section-tab {
+  margin-top: 20px;
+  padding: 40px 15px 15px;
+}

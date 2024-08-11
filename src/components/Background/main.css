@@ -1,0 +1,17 @@
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 2000px;
+  height: 1200px;
+  z-index: -1; /* Ensure the video is behind the content */
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none; /* Ensure the iframe doesn't interfere with user interactions */
+}

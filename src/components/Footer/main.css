@@ -1,0 +1,17 @@
+.footer,
+.team {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-logo {
+  background: #fff;
+  border-radius: 50%;
+  height: 20px;
+}
+
+.footer-team {
+  border-radius: 50%;
+  height: 30px;
+}
