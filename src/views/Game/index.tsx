@@ -1,4 +1,3 @@
-import React from 'react';
 import Play from '../../components/Play';
 import RoadmapMonth from '../../components/RoadmapMonth';
 import Footer from '../../components/Footer';
