@@ -1,5 +1,7 @@
 # ⚡️ ByteBeast Official Website
 - https://github.com/ByteBuildersLabs/ByteBeasts
+- Test the beta of the game here https://byte-beasts-deploy.vercel.app/
+- This is the website https://www.bytebeasts.games/
 
 ## 🔮 Table of contents
 1. [What is this](#-what-is-this)
