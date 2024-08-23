@@ -6,6 +6,7 @@ import rolo from '../../assets/img/rol.jpg';
 import juan from '../../assets/img/Juan.jpeg';
 import cox from '../../assets/img/marco.jpeg';
 import luis from '../../assets/img/Luis.jpeg';
+import daniel from '../../assets/img/daniel.jpeg';
 
 import './main.css';
 
@@ -24,6 +25,9 @@ function Footer() {
         </a>
         <a href='https://github.com/jimenezz22' target='_blank'>
           <img src={luis} className='footer-team' />
+        </a>
+        <a href='https://github.com/danielcdz' target='_blank'>
+          <img src={daniel} className='footer-team' />
         </a>
       </div>
       <div className="footer mb-3">
