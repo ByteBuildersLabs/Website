@@ -24,10 +24,6 @@
 - Run `npm run start`
 - Open `http://localhost:3000/`
 
-### 🔮 Improvements Ideas
-
-### 🐝 Tech debt
-
 ### ⚡️ Screenshots
 
 <img width="603" alt="Captura de pantalla 2024-08-05 a la(s) 6 18 42 p  m" src="https://github.com/user-attachments/assets/5014a542-f1ae-48ee-a358-95e5e0aa1e32">
