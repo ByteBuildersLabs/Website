@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { useState, useEffect } from 'react';
 import Background from './components/Background/index';
 import Header from './components/Header/index';
 import NftRoom from './views/NftRoom/index';
@@ -10,14 +9,6 @@ import Cover from './views/Cover';
 import './App.css';
 
 function App() {
-  // const [walletAddress, setWalletAddress] = useState<string | null>(null);
-
-  // const storedAddress = localStorage.getItem("walletAddress");
-  // if (storedAddress) {
-  //   setWalletAddress(storedAddress);
-  // }
-
-
   return (
     <>
       <div>
