@@ -5,7 +5,7 @@
   --yellow: #731627;
   --white: #fff;
   --light-green: #000;
-  --light-gray: #90949c;
+  --light-gray: #e1d6d6;
   --black: #000;
   --black-bold: #000;
   --warning: #ed6444;
@@ -27,7 +27,7 @@ body {
   width: 100%;
   max-width: 425px;
   margin: auto;
-  padding: 90px 15px 20px;
+  padding: 75px 15px 20px;
 }
 
 p {
@@ -96,6 +96,16 @@ button {
   color: var(--light-gray);
   border: 3px solid var(--light-green);
   background-color: var(--main-bg-color);
+}
+
+.cta-button {
+  font-size: 22px;
+  border-radius: 15px;
+  border: 3px solid #e4a101;
+}
+
+.main-button:hover {
+  background-color: #e4a101;
 }
 
 .secondary-button {
@@ -236,7 +246,7 @@ button {
 }
 
 .section-tab .subtitle {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
   line-height: 1.7;
   color: var(--light-gray);

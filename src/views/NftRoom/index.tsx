@@ -1,6 +1,5 @@
 import MintBeast from '../../components/MintBeast/index';
 import NftHall from '../../components/NftHall';
-import Footer from '../../components/Footer';
 import './main.css';
 
 function NftRoom() {
@@ -12,7 +11,6 @@ function NftRoom() {
       </div>
       <NftHall />
       <MintBeast />
-      <Footer />
     </div>
   )
 }

@@ -8,7 +8,7 @@ function RoadmapStep() {
       <div className='d-flex align-items-center mb-2'>
         <div className='col-9'>
           <p className={'title'}>
-          <span className='d-block'>Byte Beasts is a turn-based RPG that combines NFTs with strategic combat</span> 
+          <span className='d-block'>Byte Beasts is a old school píxel art RPG that combines NFTs, adventures and strategic combat</span> 
             Unity + Dojo Engine + Mobile First + Píxel Art
           </p>
         </div>
@@ -16,12 +16,7 @@ function RoadmapStep() {
           <img className="section-tab-pet" src={nftIcon} alt="" />
         </div>
       </div>
-      <div>
-        <p className={'subtitle'}>
-          This project is a revolutionary on-chain mobile game where players collect, trade, and battle unique creatures known as Byte Beasts
-        </p>
-      </div>
-      <div className="new yellow-border">
+      <div className="new yellow-border mt-4">
         <img src={dragon2} alt="" />
       </div>
     </div>
