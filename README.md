@@ -20,9 +20,8 @@
 
 ### ⚙️ How to install
 - Clone this repo: `git clone https://github.com/ByteBuildersLabs/website`
-- Go to `my-app` and `npm install`
-- Run `npm run start`
-- Open `http://localhost:3000/`
+- Run `npm install`, `npm run dev`
+- Open the wesinte in the port that appears in the console
 
 ### ⚡️ Screenshots
 
