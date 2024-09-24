@@ -23,7 +23,6 @@
 - Go to `my-app` and `npm install`
 - Run `npm run start`
 - Open `http://localhost:3000/`
-- You can deploy this project using vercel
 
 ### 🔮 Improvements Ideas
 
