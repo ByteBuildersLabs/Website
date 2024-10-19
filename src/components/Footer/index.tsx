@@ -3,9 +3,9 @@ import twitter from '../../assets/img/twitter.png';
 import unity from '../../assets/img/unity.png';
 import starknet from '../../assets/img/stark.png';
 import rolo from '../../assets/img/rol.jpg';
-import juan from '../../assets/img/Juan.jpeg';
+import juan from '../../assets/img/Juan.jpg';
 import cox from '../../assets/img/marco.jpeg';
-import luis from '../../assets/img/Luis.jpeg';
+import luis from '../../assets/img/Luis.png';
 import daniel from '../../assets/img/daniel.jpeg';
 
 import './main.css';
