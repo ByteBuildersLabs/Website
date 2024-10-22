@@ -83,13 +83,13 @@ If you're a contributor or would like to connect with the project maintainers, f
 <table>
   <tr>
     <td align="center">
-      <img src="Maintainers/rolo.jpg" width="100px;" alt="Maintainer: roloxworld"/>
+      <img src="maintainers/rolo.jpg" width="100px;" alt="Maintainer: roloxworld"/>
       <br />
       <a href="https://github.com/RolandoDrRobot">roloxworld</a>
       <br />
     </td>
         <td align="center">
-      <img src="Maintainers/marco.jpg width="100px;" alt="Maintainer: coxmars"/>
+      <img src="maintainers/marco.jpeg width="100px;" alt="Maintainer: coxmars"/>
       <br />
       <a href="https://github.com/coxmars">coxmars</a>
       <br />
