@@ -97,3 +97,10 @@ If you're a contributor or would like to connect with the project maintainers, f
   </tr>
 </table>
 
+### ⚡️ Screenshots
+
+<img width="603" alt="Captura de pantalla 2024-08-05 a la(s) 6 18 42 p  m" src="https://github.com/user-attachments/assets/5014a542-f1ae-48ee-a358-95e5e0aa1e32">
+
+<img width="603" alt="Captura de pantalla 2024-08-05 a la(s) 6 18 47 p  m" src="https://github.com/user-attachments/assets/475897cc-8268-4762-b3cd-e76ef7b2b430">
+
+<img width="603" alt="Captura de pantalla 2024-08-05 a la(s) 6 18 52 p  m" src="https://github.com/user-attachments/assets/98c80d9c-f3cf-407a-8d22-b5c2383bda94">
