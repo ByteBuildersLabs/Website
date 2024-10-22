@@ -1,112 +1,99 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset=".github/mark-dark.svg">
-  <img    loading="lazy"     style="max-width: 120px; float: right; margin: 0 0 20px 20px;"
-  alt="ByteBeats official logo" align="right" width="120" src="./assets/bytebeastslogo.svg">
-</picture>
+# Byte Beasts: Official Website 🐉🎮
 
-<a href="https://x.com/0xByteBeasts">
-<img src="https://img.shields.io/twitter/follow/0xByteBeasts?style=social"/>
-</a>
-<a href="https://x.com/0xByteBeasts">
-<img src="https://img.shields.io/github/stars/ByteBuildersLabs?style=social"/>
-</a>
-
-
-[![Telegram Chat][tg-badge]][tg-url]
-
-[tg-badge]: https://img.shields.io/endpoint?color=neon&logo=telegram&label=chat&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Fdojoengine
-[tg-url]: https://t.me/+-84e2pqLtqNkZDAx
-
-
-# Byte Beasts: Official Guide 🐉🎮
-
-The official Byte Beasts guide, the quickest and most streamlined way to get your Dojo provable game up and running. This guide will assist you with the initial setup, from cloning the repository to deploying your world.
-
-Read the full tutorial [here](https://book.dojoengine.org/tutorial/dojo-starter).
+The official Byte Beasts website
 
 ## Prerequisites 📋
 
-To be able to run the ByteBeasts backend you need to have Git, Rust and Scarb installed on your PC to satisfy Dojo dependencies. You can install them with the following steps:
+To be able to run the ByteBeasts website you just need to have Git and node installed. You can install them with the following steps:
 
-### Install Rust 🦀
+### Install the repo 🛠️
 
-Go to the [Rust installation page](https://doc.rust-lang.org/book/ch01-01-installation.html#installing-rustup-on-linux-or-macos)
-
-After installing Rust, ensure your `PATH` environment variable includes the Cargo bin directory (usually `$HOME/.cargo/bin`).
-
-### Install Git 🧑‍💻
-Go to the [Git installation page](https://git-scm.com/downloads) and follow the instructions for your operating system to install Git.
-
-### Install Scarb ⚙️
-The Dojo toolchain integrates [Scarb](https://docs.swmansion.com/scarb/) to build and run Dojo projects, installation instructions are [here](https://docs.swmansion.com/scarb/download.html).
-
-### Install Dojo using `dojoup` 🥋
-
-You can install with the `dojoup` version manager which enables you to easily install, update and manage your Dojo installation.
-
-### Install dojoup 🛠️
-```bash
-curl -L https://install.dojoengine.org | bash
-```
-### Install the Dojo v1.0.0-alpha.5 release 🚀
-
-### Install Dojo using `asdf` 📦
-
-You can alternatively use the `asdf` package manager to install and manage your Dojo installation.
-
-### Install asdf
-
-Follow the [asdf installation instructions](https://asdf-vm.com/guide/getting-started.html)
-
-### Add the asdf-dojo plugin 🔌
+fork the repo, and clone It to your computer
 
 ```bash
-asdf plugin add dojo https://github.com/dojoengine/asdf-dojo
+npm install
 ```
-
-### Install the latest or a specific version 🆕
 
 ```bash
-asdf install dojo latest      # For the latest version
-asdf install dojo 0.7.0       # For a specific version
-
+npm run dev
 ```
+## Contributing
 
-### Set the global or local version  📁
+Thank you for considering contributing to this project! We appreciate your time and effort in improving our work. Below are the guidelines to help you contribute effectively, but first, join to our [Telegram](https://t.me/+-84e2pqLtqNkZDAx) contributors group.
 
-```bash
-asdf global dojo latest       # Set globally
-asdf local dojo 0.7.0         # Set locally in your project directory
+### 1. Fork the Repository
+Start by forking this repository to your GitHub account.
 
-```
+### 2. Clone Your Fork
+After forking, clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-user/ByteBeastsFrontend.git
+   cd ByteBeastsFrontend
+   ```
 
-## Running Locally 🖥️
+### 3. Create a New Branch
+Create a new branch for your feature or bug fix follwing the branch naming convention:
+- For bugs: bug-fix-name
+- For new features: feat-name
+- For refactor: refactor-name
+- For docs: docs-name
+   ```bash
+   git checkout -b feature-name
+   ```
 
-### Terminal one (Make sure this is running) 🏃
-```bash
-# Run Katana
-katana --disable-fee --allowed-origins "*"
-```
+### 4. Make Your Changes
+Make the necessary changes to the codebase.  
+Test the game to ensure that everything works as expected with your changes and the game
 
-### Terminal two 🔄
-```bash
-# Build the example
-sozo build
+### 5. Commit Your Changes
+Add the changes to the staging area:
+   ```bash
+   git add .
+   ```
+Commit your changes with a meaningful commit message:
+   ```bash
+   git commit -m "feat: description"
+   ```
+   Example: 
+   ```bash
+   git commit -m "feat: add new character: Tom"
+   ```
 
-# Migrate the example
-sozo migrate apply
+### 6. Push Your Changes
+Push your changes to your forked repository.:
+   ```bash
+   git push origin branch-name 
+   ```
 
-# Start Torii
-torii --world 0x70835f8344647b1e573fe7aeccbf044230089eb19624d3c7dea4080f5dcb025 --allowed-origins "*"
-```
+### 7. Submit a Pull Request
+Once your changes are ready, submit a Pull Request (PR) for review. Ensure that:
+- Your PR has a clear and descriptive title, please use the same title of the issue
+- You provide a detailed explanation of the changes made.
+- You reference any related issues (if applicable).
 
-## Contribution 🤝
+All contributions must go through the PR review process to maintain code quality and consistency. A project maintainer will review your PR and provide feedback or merge it into the main branch.
 
-We welcome contributions from developers of all levels! If you're interested in contributing to this project, please follow our  [CONTRIBUTION GUIDELINES](./CONTRIBUTION.md) to get started.
-
-Whether it's fixing bugs, improving documentation, or adding new features, your help is greatly appreciated. Don't hesitate to ask questions or reach out for support—we're here to help!
-
+Thank you for contributing to ByteBeasts Frontend! If you have any questions, feel free to reach out to the maintainers.
 
 ## Communication channel 📢
 If you're a contributor or would like to connect with the project maintainers, feel free to join our [Telegram](https://t.me/+-84e2pqLtqNkZDAx) group!
+
+## Maintainers
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="Maintainers/rolo.jpg" width="100px;" alt="Maintainer: roloxworld"/>
+      <br />
+      <a href="https://github.com/RolandoDrRobot">roloxworld</a>
+      <br />
+    </td>
+        <td align="center">
+      <img src="Maintainers/marco.jpg width="100px;" alt="Maintainer: coxmars"/>
+      <br />
+      <a href="https://github.com/coxmars">coxmars</a>
+      <br />
+    </td>
+  </tr>
+</table>
 
