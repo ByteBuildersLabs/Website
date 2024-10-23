@@ -27,9 +27,11 @@ Start by forking this repository to your GitHub account.
 ### 2. Clone Your Fork
 After forking, clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-user/ByteBeastsFrontend.git
+   git clone https://github.com/your-user/Website.git
    cd Website
    ```
+   
+Make sure you are using node `v16.20.2`
 
 ### 3. Create a New Branch
 Create a new branch for your feature or bug fix follwing the branch naming convention:
@@ -43,7 +45,7 @@ Create a new branch for your feature or bug fix follwing the branch naming conve
 
 ### 4. Make Your Changes
 Make the necessary changes to the codebase.  
-Test the game to ensure that everything works as expected with your changes and the game
+Test the webpage to ensure that everything works as expected with your changes
 
 ### 5. Commit Your Changes
 Add the changes to the staging area:
@@ -88,10 +90,16 @@ If you're a contributor or would like to connect with the project maintainers, f
       <a href="https://github.com/RolandoDrRobot">roloxworld</a>
       <br />
     </td>
-        <td align="center">
+    <td align="center">
       <img src="maintainers/marco.jpeg" width="100px" alt="Maintainer: coxmars"/>
       <br />
       <a href="https://github.com/coxmars">coxmars</a>
+      <br />
+    </td>
+    <td align="center">
+      <img src="maintainers/luis.png" width="100px" alt="Maintainer: jimenezz22"/>
+      <br />
+      <a href="https://github.com/coxmars">jimenezz22</a>
       <br />
     </td>
   </tr>
