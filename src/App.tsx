@@ -6,6 +6,7 @@ import Roadmap from './views/Roadmap';
 import Game from './views/Game';
 import Navbar from './components/Navbar/index';
 import Cover from './views/Cover';
+import NftCollection from './components/NFTCollection/index';
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
                 <Route path='/nftroom' element={<NftRoom />} />
                 <Route path='/roadmap' element={<Roadmap />} />
                 <Route path='/game' element={<Game />} />
+                <Route path='/nftcollection/:collectionName' element={<NftCollection />} />
               </Routes>
             ) : (
               <Cover />
