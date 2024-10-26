@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 import nftIcon from '../../assets/img/purpleorb.gif';
 import investIcon from '../../assets/img/orb.gif';
@@ -21,6 +22,10 @@ function Navbar() {
             <img src={nftIcon} alt="" />
             Roadmap
           </Link>
+          <Link to="/nftowner" className="button">
+            <img src={investIcon} alt="" />
+            NFT
+          </Link>
         </div>
       </div>
     </>
@@ -28,3 +33,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
+

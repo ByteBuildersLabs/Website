@@ -7,6 +7,7 @@ import Game from './views/Game';
 import Navbar from './components/Navbar/index';
 import Cover from './views/Cover';
 import './App.css';
+import NftOwner from './views/NftOwner';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
                 <Route path='/nftroom' element={<NftRoom />} />
                 <Route path='/roadmap' element={<Roadmap />} />
                 <Route path='/game' element={<Game />} />
+                <Route path='/nftowner' element={<NftOwner/>}/>  
               </Routes>
             ) : (
               <Cover />
@@ -35,3 +37,8 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
