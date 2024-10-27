@@ -1,11 +1,7 @@
-
-
-
-
-import LuisImg from '../img/Luis.png';
-import Daniel from '../img/daniel.jpeg';
-import Marco from '../img/marco.jpeg';
-import Rol from '../img/rol.jpg';
+import LuisImg from '../assets/img/Luis.png';
+import Daniel from '../assets/img/daniel.jpeg';
+import Marco from '../assets/img/marco.jpeg';
+import Rol from '../assets/img/rol.jpg';
 
 
 export const animals = [
