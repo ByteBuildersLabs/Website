@@ -1,6 +1,6 @@
 import { Link, } from "react-router-dom";
 import { animals } from "../../utils/dummy";
-
+import './main.css';
 interface nftMetaData {
   name: any,
   image: any,
