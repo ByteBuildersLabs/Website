@@ -6,9 +6,12 @@ import Roadmap from './views/Roadmap';
 import Game from './views/Game';
 import Navbar from './components/Navbar/index';
 import Cover from './views/Cover';
-import NftCollection from './components/NFTCollection/index';
 import './App.css';
 
+import NftCollection from './components/NFTCollection/index';
+import NftDetails from './components/NftDetails';
+import NftOwner from "./views/NftOwner";
+        
 function App() {
   return (
     <>
@@ -23,7 +26,9 @@ function App() {
                 <Route path='/nftroom' element={<NftRoom />} />
                 <Route path='/roadmap' element={<Roadmap />} />
                 <Route path='/game' element={<Game />} />
+                <Route path="/nftowner" element={<NftOwner />} />
                 <Route path='/nftcollection/:collectionName' element={<NftCollection />} />
+                <Route path='/nftroom/:collectionName/:tokenId' element={<NftDetails/>}/>
               </Routes>
             ) : (
               <Cover />
