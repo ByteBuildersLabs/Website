@@ -1,5 +1,3 @@
-import './main.css';
-
 interface roadmapTeamInterface {
   date: string, title: string, text: string, link: string, picture: string, subtitle: string
 }

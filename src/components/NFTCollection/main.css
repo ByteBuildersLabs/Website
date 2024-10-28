@@ -1,12 +1,6 @@
-body {
-  background-color: #000;
-  color: #fff;
-  font-family: Arial, sans-serif;
-}
-
 .nft-room {
   min-height: 100vh;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -54,13 +48,14 @@ body {
 
 .nft-card img {
   border-radius: 8px;
-  width: 100%;
+  width: 85%;
   height: auto;
 }
 
 .nft-card p {
-  font-size: 0.5rem;
-  margin-top: 0.5rem;
+  color: #e4a101;
+  font-size: 10px;
+  margin-top: 12px;
 }
 
 .bottom-nav {
@@ -94,14 +89,4 @@ body {
 
 .play-game, .nft {
   background-color: #ffd700;
-}
-
-.roadmap {
-  background-color: #800080;
-}
-
-@media (min-width: 768px) {
-  .nft-card {
-    padding: 1.2rem;
-  }
 }

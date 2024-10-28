@@ -43,7 +43,6 @@
 }
 
 .nft-card img {
-  width: 85%;
   object-fit: cover;
   margin: 0 auto 6px;
   animation: only-aura 10s ease 0s infinite normal none;
