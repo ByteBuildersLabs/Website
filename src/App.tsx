@@ -7,8 +7,10 @@ import Game from "./views/Game";
 import Navbar from "./components/Navbar/index";
 import Cover from "./views/Cover";
 import "./App.css";
-import NftOwner from "./views/NftOwner";
 
+import NftDetails from './components/NftDetails';
+import NftOwner from "./views/NftOwner";
+        
 function App() {
   return (
     <>
@@ -19,11 +21,13 @@ function App() {
           <div id="content">
             {true ? (
               <Routes>
-                <Route path="/" element={<Game />} />
-                <Route path="/nftroom" element={<NftRoom />} />
-                <Route path="/roadmap" element={<Roadmap />} />
-                <Route path="/game" element={<Game />} />
+                <Route path='/' element={<Game />} />
+                <Route path='/nftroom' element={<NftRoom />} />
+                <Route path='/roadmap' element={<Roadmap />} />
+                <Route path='/game' element={<Game />} />
                 <Route path="/nftowner" element={<NftOwner />} />
+                <Route path='/nftroom/:collectionName/:tokenId' element={<NftDetails/>}/>
+
               </Routes>
             ) : (
               <Cover />
