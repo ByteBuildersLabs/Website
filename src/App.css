@@ -90,6 +90,7 @@ button {
   border-bottom: 3px solid #e4a101;
   cursor: pointer;
   transition: all 0.25s;
+  margin-bottom: 12px;
 }
 
 .main-button:disabled {
@@ -249,6 +250,7 @@ button {
   font-weight: 500;
   line-height: 1.7;
   color: var(--light-gray);
+  margin-bottom: 20px;
 }
 
 .new {
@@ -332,4 +334,16 @@ button {
 .collection.row,
 .collection.row .col-4 {
   padding: 0;
+}
+
+.nft-card img {
+  border-radius: 8px;
+  width: 80%;
+  height: auto;
+}
+
+.nft-card p {
+  color: #e4a101;
+  font-size: 10px;
+  margin-top: 12px;
 }

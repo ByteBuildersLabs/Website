@@ -34,7 +34,7 @@
 .collection {
   width: 100%;
   margin: auto;
-  margin-bottom: 24px;
+  margin: 24px auto;
 }
 
 .nft-card {

@@ -1,11 +1,5 @@
 import { Link } from "react-router-dom";
-import { animals } from "../../utils/dummy";
-
-interface nftMetaData {
-  name: any;
-  image: any;
-  tokenId: any;
-}
+import { animals, NftMetadata } from "../../utils/dummy";
 
 function NftOwner() {
   return (
@@ -20,7 +14,7 @@ function NftOwner() {
               </h2>
             </div>
             <div className="collection row">
-              {animals.map(({ name, image, tokenId }: nftMetaData) => {
+              {animals.map(({ name, image, tokenId }: NftMetadata) => {
                 return (
                   <Link key={tokenId} to={`/nftroom/`} className="col-4 yellow">
                     <div className="nft-card">

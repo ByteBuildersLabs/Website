@@ -1,25 +1,22 @@
 import { useParams, Link } from 'react-router-dom';
+import { useTruncatedAddress } from '../../utils/useTruncatedAddress';
+import { animals, NftMetadata } from "../../utils/dummy";
 import goBackButton from '../../assets/img/close.png';
 import './main.css';
 
 function NftDetails() {
   const { collectionName, tokenId } = useParams();
-  
-  // Example of mocked data
-  const nft = {
-    name: "Mystic Animals #1",
-    description: "Mystic Animals is a collection that is only owned by the most fearless investors",
-    image: "https://gateway.ipfs.io/ipfs/Qmb711ppmGxLJRf4p5QDqmcKSaJHE5V1L3uMEe8Fixs5LR",
-    owner: "0x0528f12f903248512E8755773DC40b5917F85b49b451F743Fd8F5fe018c90C30"
-  };
+
+  const nft = animals.find((nft: NftMetadata) => nft.tokenId === Number(tokenId));
   
   const transfer = () => {
     alert("Transfer NFT");
   }
-  
+
   return (
     <>
       {
+        nft && 
         <div className='nft-details'>
           <div className='nft'>
             <div className="section-title title-style-two text-center mb-60">
@@ -31,9 +28,9 @@ function NftDetails() {
             <div className="text-center">
               <img src={nft.image} className="nft-image" alt=""/>
             </div>
-            <p>Owner: 
+            <p>Owner:   
               <Link to={`/nftowner/${nft.owner}`}>
-                <span className="yellow m-0">{nft.owner}</span>
+                <span className="yellow mx-2">{useTruncatedAddress(nft.owner)}</span>
               </Link>
             </p>
             <p className="">{nft.description}</p>
