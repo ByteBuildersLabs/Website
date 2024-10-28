@@ -7,7 +7,7 @@ function NftHall() {
   return (
     <>
       {<>
-        <div className="nft-box section-tab yellow-border">
+        <div className="nft-box section-tab yellow-border p-0">
           <div className="d-flex align-items-center">
             <div className="col-8">
               <p className='title px-4'>
