@@ -1,35 +1,103 @@
-.nft-room .section-title {
-  padding-bottom: 1rem;
-  color: #343a40;
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
 }
 
-.nft-room .separator {
-  margin: 1rem 0;
-  border-bottom: 2px solid #dee2e6;
+.nft-room {
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+.logo {
+  height: 32px;
+}
+
+.brand-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffd700;
+}
+
+.btn-connect {
+  background-color: #8b0000;
+  color: #fff;
+  border: none;
+}
+
+.collectibles-title {
+  font-size: 1rem;
+  color: #808080;
+  text-transform: uppercase;
+}
+
+.holder-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.text-highlight {
+  color: #ffd700;
 }
 
 .nft-card {
   border-radius: 10px;
   overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease;
   text-decoration: none;
   color: inherit;
 }
 
 .nft-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
 }
 
-.card-content img {
+.nft-card img {
   border-radius: 8px;
   width: 100%;
   height: auto;
 }
 
-.card-content p {
-  font-size: 1.1rem;
-  color: #333;
+.nft-card p {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.nav-icon {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-bottom: 4px;
+}
+
+.mint-beast {
+  background-color: #00ff00;
+}
+
+.play-game, .nft {
+  background-color: #ffd700;
+}
+
+.roadmap {
+  background-color: #800080;
 }
 
 @media (min-width: 768px) {
