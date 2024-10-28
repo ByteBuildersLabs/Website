@@ -1,13 +1,13 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Background from './components/Background/index';
-import Header from './components/Header/index';
-import NftRoom from './views/NftRoom/index';
-import Roadmap from './views/Roadmap';
-import Game from './views/Game';
-import Navbar from './components/Navbar/index';
-import Cover from './views/Cover';
-import './App.css';
-import NftOwner from './views/NftOwner';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Background from "./components/Background/index";
+import Header from "./components/Header/index";
+import NftRoom from "./views/NftRoom/index";
+import Roadmap from "./views/Roadmap";
+import Game from "./views/Game";
+import Navbar from "./components/Navbar/index";
+import Cover from "./views/Cover";
+import "./App.css";
+import NftOwner from "./views/NftOwner";
 
 function App() {
   return (
@@ -19,11 +19,11 @@ function App() {
           <div id="content">
             {true ? (
               <Routes>
-                <Route path='/' element={<Game />} />
-                <Route path='/nftroom' element={<NftRoom />} />
-                <Route path='/roadmap' element={<Roadmap />} />
-                <Route path='/game' element={<Game />} />
-                <Route path='/nftowner' element={<NftOwner/>}/>  
+                <Route path="/" element={<Game />} />
+                <Route path="/nftroom" element={<NftRoom />} />
+                <Route path="/roadmap" element={<Roadmap />} />
+                <Route path="/game" element={<Game />} />
+                <Route path="/nftowner" element={<NftOwner />} />
               </Routes>
             ) : (
               <Cover />
@@ -37,8 +37,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
