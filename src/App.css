@@ -27,7 +27,7 @@ body {
   width: 100%;
   max-width: 425px;
   margin: auto;
-  padding: 75px 15px 20px;
+  padding: 75px 20px 20px;
 }
 
 p {
@@ -338,12 +338,16 @@ button {
 
 .nft-card img {
   border-radius: 8px;
-  width: 80%;
+  width: 70%;
   height: auto;
 }
 
 .nft-card p {
-  color: #e4a101;
+  color: #fff;
   font-size: 10px;
   margin-top: 12px;
+}
+
+.token-owner:hover {
+  color: #e4a101;
 }
