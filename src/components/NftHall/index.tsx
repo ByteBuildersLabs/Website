@@ -1,4 +1,5 @@
 import rewardPic from '../../assets/img/vault.gif';
+import NftVault from '../NftVault';
 import './main.css';
 
 function NftHall() {
@@ -20,6 +21,7 @@ function NftHall() {
           <div className="collection row">
           </div>
           <div className="collection row">
+            <NftVault/>
           </div>
         </div>
       </>
