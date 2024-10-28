@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --main-bg-color: #000;
@@ -142,7 +142,7 @@ button {
 
 .yellow:hover {
   color: var(--yellow);
-  text-shadow:0 0 15px var(--yellow);
+  text-shadow: 0 0 15px var(--yellow);
 }
 
 .gray {
@@ -152,14 +152,14 @@ button {
 
 .gray:hover {
   color: var(--light-gray);
-  text-shadow:0 0 20px var(--light-gray);
+  text-shadow: 0 0 20px var(--light-gray);
 }
 
 #__react-alert__ div div div {
   color: var(--white) !important;
   background-color: var(--main-bg-color) !important;
   border-radius: 3px !important;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   text-transform: initial !important;
   font-weight: bold !important;
   border: 3px solid #e4a101 !important;
@@ -194,7 +194,7 @@ button {
 
 .section-title > span {
   display: block;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   line-height: 1;
   font-size: 10px;
   font-weight: 700;
@@ -214,7 +214,7 @@ button {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-image: url('./assets/img/images/title_bar.png');
+  background-image: url("./assets/img/images/title_bar.png");
   width: 270px;
   height: 13px;
   background-repeat: no-repeat;
@@ -305,17 +305,24 @@ button {
 }
 
 @keyframes inneraura {
-  0% { box-shadow: 0px 4px 5.58px 0.42px rgb(0 0 0 / 13%), inset 0px 1px 10px 0px rgb(228 161 1 / 17%); }
-  50% { box-shadow: 0px 4px 5.58px 0.42px rgb(0 0 0 / 13%), inset 0px 1px 16px 0px rgb(228 161 1 / 17%); }
-  100% { box-shadow: 0px 4px 5.58px 0.42px rgb(0 0 0 / 13%), inset 0px 1px 10px 0px rgb(228 161 1 / 17%); }
+  0% {
+    box-shadow: 0px 4px 5.58px 0.42px rgb(0 0 0 / 13%),
+      inset 0px 1px 10px 0px rgb(228 161 1 / 17%);
+  }
+  50% {
+    box-shadow: 0px 4px 5.58px 0.42px rgb(0 0 0 / 13%),
+      inset 0px 1px 16px 0px rgb(228 161 1 / 17%);
+  }
+  100% {
+    box-shadow: 0px 4px 5.58px 0.42px rgb(0 0 0 / 13%),
+      inset 0px 1px 10px 0px rgb(228 161 1 / 17%);
+  }
 }
-
-
 
 /*Hide scrollbars for all elements */
 * {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;     /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* Hide webkit scrollbars (Chrome, Safari, newer versions of Opera) */
