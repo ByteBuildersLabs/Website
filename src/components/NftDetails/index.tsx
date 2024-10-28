@@ -22,20 +22,22 @@ function NftDetails() {
             <div className="section-title title-style-two text-center mb-60">
               <span>{collectionName}</span>
               <h2>
-                <Link to={`/nftcollection/${collectionName}`}><span>{nft.name}</span></Link> 
+                {/* <Link to={`/nftcollection/${collectionName}`}><span>{nft.name}</span></Link>  */}
+                <span>{nft.name}</span>
               </h2>
             </div>
             <div className="text-center">
               <img src={nft.image} className="nft-image" alt=""/>
             </div>
-            <p>Owner:   
-              <Link to={`/nftowner/${nft.owner}`}>
-                <span className="yellow mx-2">{useTruncatedAddress(nft.owner)}</span>
-              </Link>
+            <p className='yellow'>Owner:   
+              {/* <Link to={`/nftowner/${nft.owner}`} className='token-owner'>
+                <span className="mx-2">{useTruncatedAddress(nft.owner)}</span>
+              </Link> */}
+              <span className="mx-2">{useTruncatedAddress(nft.owner)}</span>
             </p>
-            <p className="">{nft.description}</p>
-            <p>Token ID: 
-              <span className="yellow m-0"> {tokenId}</span>
+            <p className='px-5 my-3' style={{ fontWeight: 'normal' }}>{nft.description}</p>
+            <p className='yellow'>Token ID: 
+              <span className="mx-2"> {tokenId}</span>
             </p>
             {
               nft.owner 
