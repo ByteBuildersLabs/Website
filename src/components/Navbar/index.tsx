@@ -21,10 +21,6 @@ function Navbar() {
             <img src={nftIcon} alt="" />
             Roadmap
           </Link>
-          <Link to="/nftowner" className="button">
-            <img src={investIcon} alt="" />
-            NFT
-          </Link>
         </div>
       </div>
     </>
