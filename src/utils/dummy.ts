@@ -1,79 +1,61 @@
-import LuisImg from "../assets/img/Luis.png";
-import Daniel from "../assets/img/daniel.jpeg";
-import Marco from "../assets/img/marco.jpeg";
-import Rol from "../assets/img/rol.jpg";
+import mysticAnimals1 from '../assets/img/mysticAnimals/mysticAnimals1.png'
+import mysticAnimals2 from '../assets/img/mysticAnimals/mysticAnimals2.png'
+import mysticAnimals3 from '../assets/img/mysticAnimals/mysticAnimals3.png'
+import mysticAnimals4 from '../assets/img/mysticAnimals/mysticAnimals4.png'
+import mysticAnimals5 from '../assets/img/mysticAnimals/mysticAnimals5.png'
+import mysticAnimals6 from '../assets/img/mysticAnimals/mysticAnimals6.png'
 
-export const animals = [
+export interface NftMetadata {
+  name: string,
+  description: string,
+  image: string,
+  tokenId: number,
+  owner: string,
+}
+
+// dummy data
+export const animals: NftMetadata[] = [
+  {
+    name: "Mystic Animals #0",
+    description: "Mystic Animals is a collection that is only owned by the most fearless investors",
+    image: mysticAnimals1,
+    owner: "0x0528f12f903248512E8755773DC40b5917F85b49b451F743Fd8F5fe018c90C30",
+    tokenId: 0
+  },
+
   {
     name: "Mystic Animals #1",
-    description:
-      "Mystic Animals is a collection that is only owned by the most fearless investors",
-    image: LuisImg,
-    tokenId: 1,
-    owner: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    description: "Mystic Animals is a collection that is only owned by the most fearless investors",
+    image: mysticAnimals2,
+    owner: "0x8f12f903248512E8755773DC40b5917F85b49b451F743Fd8F5fe018c90C31",
+    tokenId: 1
   },
   {
     name: "Mystic Animals #2",
-    description:
-      "Mystic Animals is a collection that is only owned by the most fearless investors",
-    image: Daniel,
-    tokenId: 2,
-    owner: "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+    description: "Mystic Animals is a collection that is only owned by the most fearless investors",
+    image: mysticAnimals3,
+    owner: "0x8f12f903248512E8755773DC40b5917F85b49b451F743Fd8F5fe018c90C32",
+    tokenId: 2
   },
   {
     name: "Mystic Animals #3",
-    description:
-      "Mystic Animals is a collection that is only owned by the most fearless investors",
-    image: Rol,
-    tokenId: 3,
-    owner: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    description: "Mystic Animals is a collection that is only owned by the most fearless investors",
+    image: mysticAnimals4,
+    owner: "0x8f12f903248512E8755773DC40b5917F85b49b451F743Fd8F5fe018c90C33",
+    tokenId: 3
   },
   {
     name: "Mystic Animals #4",
-    description:
-      "Mystic Animals is a collection that is only owned by the most fearless investors",
-    image: Marco,
-    tokenId: 4,
-    owner: "0x123d35Cc6634C0532925a3b844Bc454e4438f123",
+    description: "Mystic Animals is a collection that is only owned by the most fearless investors",
+    image: mysticAnimals5,
+    owner: "0x8f12f903248512E8755773DC40b5917F85b49b451F743Fd8F5fe018c90C34",
+    tokenId: 4
   },
   {
     name: "Mystic Animals #5",
-    description:
-      "Mystic Animals is a collection that is only owned by the most fearless investors",
-    image: Rol,
-    tokenId: 5,
-    owner: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    description: "Mystic Animals is a collection that is only owned by the most fearless investors",
+    image: mysticAnimals6,
+    owner: "0x8f12f903248512E8755773DC40b5917F85b49b451F743Fd8F5fe018c90C35",
+    tokenId: 5
   },
-  {
-    name: "Mystic Animals #6",
-    description:
-      "Mystic Animals is a collection that is only owned by the most fearless investors",
-    image: Daniel,
-    tokenId: 6,
-    owner: "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
-  },
-  {
-    name: "Mystic Animals #7",
-    description:
-      "Mystic Animals is a collection that is only owned by the most fearless investors",
-    image: Marco,
-    tokenId: 7,
-    owner: "0x123d35Cc6634C0532925a3b844Bc454e4438f123",
-  },
-  {
-    name: "Mystic Animals #8",
-    description:
-      "Mystic Animals is a collection that is only owned by the most fearless investors",
-    image: LuisImg,
-    tokenId: 8,
-    owner: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-  },
-  {
-    name: "Mystic Animals #9",
-    description:
-      "Mystic Animals is a collection that is only owned by the most fearless investors",
-    image: Daniel,
-    tokenId: 9,
-    owner: "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
-  },
-];
+]

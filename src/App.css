@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --main-bg-color: #000;
@@ -90,6 +90,7 @@ button {
   border-bottom: 3px solid #e4a101;
   cursor: pointer;
   transition: all 0.25s;
+  margin-bottom: 12px;
 }
 
 .main-button:disabled {
@@ -194,7 +195,6 @@ button {
 
 .section-title > span {
   display: block;
-  font-family: "Poppins", sans-serif !important;
   line-height: 1;
   font-size: 10px;
   font-weight: 700;
@@ -250,6 +250,7 @@ button {
   font-weight: 500;
   line-height: 1.7;
   color: var(--light-gray);
+  margin-bottom: 20px;
 }
 
 .new {
@@ -328,4 +329,21 @@ button {
 /* Hide webkit scrollbars (Chrome, Safari, newer versions of Opera) */
 *::-webkit-scrollbar {
   display: none;
+}
+
+.collection.row,
+.collection.row .col-4 {
+  padding: 0;
+}
+
+.nft-card img {
+  border-radius: 8px;
+  width: 80%;
+  height: auto;
+}
+
+.nft-card p {
+  color: #e4a101;
+  font-size: 10px;
+  margin-top: 12px;
 }

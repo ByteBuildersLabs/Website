@@ -13,7 +13,6 @@
 
 .nft-details .yellow {
   font-weight: bold;
-  margin: 0 auto 8px;
   transition: all 0.2;
   color: #e4a101;
 }
@@ -24,8 +23,8 @@
 }
 
 .nft-image {
-  width: 60%;
-  margin: 0 auto 30px;
+  width: 50%;
+  margin: 20px auto 30px;
   animation: aura 7s ease 0s infinite normal none;
 }
 

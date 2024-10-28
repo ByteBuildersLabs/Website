@@ -1,5 +1,3 @@
-import './main.css';
-
 interface RoadmapMonthProps {
   completed: boolean;
   title: string;

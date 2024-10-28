@@ -19,8 +19,6 @@ function NftHall() {
             </div>
           </div>
           <div className="collection row">
-          </div>
-          <div className="collection row">
             <NftVault/>
           </div>
         </div>

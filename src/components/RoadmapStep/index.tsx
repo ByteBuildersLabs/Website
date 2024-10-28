@@ -1,6 +1,5 @@
 import nftIcon from '../../assets/img/purpleorb.gif';
 import dragon2 from '../../assets/img/logo.jpg';
-import './main.css';
 
 function RoadmapStep() {
   return (
