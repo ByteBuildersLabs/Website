@@ -1,7 +1,7 @@
 import WalletConnector from '../WalletConector/index'
 import monster from '../../assets/img/logo.jpg';
-
 import './main.css';
+import ControllerConnectButton from '../CartridgeController/ControllerConnectButton';
 
 function Header() {
 
@@ -14,6 +14,7 @@ function Header() {
             <h2>BYTE <span>BEASTS</span></h2>
           </div>
           <WalletConnector />
+          <ControllerConnectButton />
         </div>
       </nav>
     </>

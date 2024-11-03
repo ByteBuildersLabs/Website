@@ -8,9 +8,26 @@ import Navbar from './components/Navbar/index';
 import Cover from './views/Cover';
 import './App.css';
 
+import { Chain, sepolia } from "@starknet-react/chains";
+import { StarknetConfig, starkscan } from "@starknet-react/core";
+import { RpcProvider } from "starknet";
+import cartridgeConnector from "./cartridgeConnector.tsx";
+
+function provider(chain: Chain) {
+  return new RpcProvider({
+    nodeUrl: "https://api.cartridge.gg/x/starknet/sepolia",
+  });
+}
+
 function App() {
   return (
-    <>
+    <StarknetConfig
+      autoConnect
+      chains={[sepolia]}
+      connectors={[cartridgeConnector]}
+      explorer={starkscan}
+      provider={provider}
+    >
       <div>
         <Router>
           <Header />
@@ -30,7 +47,7 @@ function App() {
           <Navbar />
         </Router>
       </div>
-    </>
+    </StarknetConfig>
   );
 }
 
