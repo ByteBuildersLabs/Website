@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom';
-import nftIcon from '../../assets/img/purpleorb.gif';
-import investIcon from '../../assets/img/orb.gif';
-import stakeIcon from '../../assets/img/greenorb.gif';
-import './main.css';
+import { Link } from "react-router-dom";
+import nftIcon from "../../assets/img/purpleorb.gif";
+import investIcon from "../../assets/img/orb.gif";
+import stakeIcon from "../../assets/img/greenorb.gif";
+import "./main.css";
 
 function Navbar() {
   return (
@@ -24,7 +24,7 @@ function Navbar() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default Navbar;

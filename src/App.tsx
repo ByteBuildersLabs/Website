@@ -5,6 +5,9 @@ import NftRoom from './views/NftRoom/index';
 import Roadmap from './views/Roadmap';
 import Game from './views/Game';
 import Navbar from './components/Navbar/index';
+import NftCollection from './components/NFTCollection/index';
+import NftDetails from './components/NftDetails';
+import NftOwner from "./views/NftOwner";
 import Cover from './views/Cover';
 import './App.css';
 
@@ -18,7 +21,7 @@ function provider(chain: Chain) {
     nodeUrl: "https://api.cartridge.gg/x/starknet/sepolia",
   });
 }
-
+        
 function App() {
   return (
     <StarknetConfig
@@ -39,6 +42,9 @@ function App() {
                 <Route path='/nftroom' element={<NftRoom />} />
                 <Route path='/roadmap' element={<Roadmap />} />
                 <Route path='/game' element={<Game />} />
+                <Route path="/nftowner" element={<NftOwner />} />
+                <Route path='/nftcollection/:collectionName' element={<NftCollection />} />
+                <Route path='/nftroom/:collectionName/:tokenId' element={<NftDetails/>}/>
               </Routes>
             ) : (
               <Cover />

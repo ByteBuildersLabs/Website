@@ -1,0 +1,36 @@
+.nft-details {
+  position: relative;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.nft-details {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.nft-details .yellow {
+  font-weight: bold;
+  transition: all 0.2;
+  color: #e4a101;
+}
+
+.nft-details p {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.nft-image {
+  width: 50%;
+  margin: 20px auto 30px;
+  animation: aura 7s ease 0s infinite normal none;
+}
+
+.nft-close {
+  width: 35px;
+  height: 35px;
+  margin-top: 20px;
+  transform: rotate(180deg);
+}
