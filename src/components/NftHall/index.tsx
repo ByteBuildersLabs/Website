@@ -1,5 +1,5 @@
 import rewardPic from '../../assets/img/vault.gif';
-import NftVault from '../NftVault';
+// import NftVault from '../NftVault';
 import './main.css';
 
 function NftHall() {
@@ -18,9 +18,9 @@ function NftHall() {
               <img src={rewardPic} className="section-tab-pet" alt="" />
             </div>
           </div>
-          <div className="collection row mt-0">
+          {/* <div className="collection row mt-0">
             <NftVault/>
-          </div>
+          </div> */}
         </div>
       </>
       }
