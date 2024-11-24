@@ -16,3 +16,12 @@ export interface Collection {
   volume_7d_eth: number;
   floor_7d_percentage: string;
 }
+
+export interface GlobalContextType {
+  mode: "light" | "dark";
+  setMode: (value: "light" | "dark") => void;
+  language: string;
+  setLanguage: (value: string) => void;
+  authenticated: boolean;
+  setAuthenticated: (value: boolean) => void;
+}
