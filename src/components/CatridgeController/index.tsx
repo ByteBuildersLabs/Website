@@ -52,10 +52,7 @@ export default function ControllerConnector() {
                     address: address,
                 });
                 localStorage.setItem("walletAddress", address || '');
-            } else {
-                console.error("No wallet found in connection result.");
-            }
-
+            } 
         } catch (e) {
             console.log(e);
         }
