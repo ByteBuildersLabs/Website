@@ -85,9 +85,9 @@ If you're a contributor or would like to connect with the project maintainers, f
 <table>
   <tr>
     <td align="center">
-      <img src="maintainers/rolo.jpg" width="100px" alt="Maintainer: roloxworld"/>
+      <img src="maintainers/rolo.jpg" width="100px" alt="Maintainer: rolandodrrobot"/>
       <br />
-      <a href="https://github.com/RolandoDrRobot">roloxworld</a>
+      <a href="https://github.com/RolandoDrRobot">rolandodrrobot</a>
       <br />
     </td>
     <td align="center">
